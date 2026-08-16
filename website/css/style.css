@@ -1,0 +1,140 @@
+/* Basic settings */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header */
+
+header {
+    background-color: #5b4b8a;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 15px 0;
+    font-size: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #ffd6a5;
+}
+
+/* Common section style */
+
+section {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 28px;
+    color: #5b4b8a;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Home */
+
+#home {
+    background-color: #eee8ff;
+    min-height: 300px;
+}
+
+#home h2 {
+    font-size: 35px;
+    color: #4a3b70;
+}
+
+#home p {
+    color: #555;
+}
+
+/* About */
+
+#about {
+    background-color: white;
+}
+
+#about p {
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+/* Skills */
+
+#skills {
+    background-color: #f5f2fa;
+}
+
+.box {
+    display: inline-block;
+    width: 25%;
+    margin: 10px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+    vertical-align: top;
+}
+
+.box h3 {
+    color: #5b4b8a;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+}
+
+/* Contact */
+
+#contact {
+    background-color: #eee8ff;
+}
+
+#contact p {
+    margin: 8px;
+}
+
+/* Responsive design */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    nav a {
+        display: block;
+        margin: 12px;
+    }
+
+    section {
+        padding: 45px 20px;
+    }
+
+    #home h2 {
+        font-size: 28px;
+    }
+
+    .box {
+        display: block;
+        width: 80%;
+        margin: 20px auto;
+    }
+}
